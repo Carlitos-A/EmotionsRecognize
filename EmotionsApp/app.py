@@ -24,8 +24,8 @@ def limpiar_texto(texto):
     return " ".join(palabras)
 
 # Cargar modelo y vectorizador entrenados
-modelo = joblib.load("modelo_emociones.pkl")
-vectorizer = joblib.load("vectorizer.pkl")
+modelo = joblib.load("EmotionsApp/modelo_emociones.pkl")
+vectorizer = joblib.load("EmotionsApp/vectorizer.pkl")
 
 # Interfaz de Streamlit
 st.set_page_config(page_title="Detector de Emociones", page_icon="💬")
