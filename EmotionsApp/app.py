@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 import pandas as pd
 import string
@@ -14,6 +15,8 @@ def traducir(texto, origen, destino):
 # Descargar recursos de NLTK
 nltk.download("stopwords")
 stop_words = set(stopwords.words("english"))
+
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # Función para limpiar texto
 def limpiar_texto(texto):
