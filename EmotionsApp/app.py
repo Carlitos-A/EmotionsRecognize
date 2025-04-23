@@ -16,8 +16,6 @@ def traducir(texto, origen, destino):
 nltk.download("stopwords")
 stop_words = set(stopwords.words("english"))
 
-os.chdir(os.path.dirname(os.path.abspath(__file__)))
-
 # Función para limpiar texto
 def limpiar_texto(texto):
     texto = texto.lower()
