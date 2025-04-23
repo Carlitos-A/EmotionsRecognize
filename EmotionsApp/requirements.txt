@@ -1,6 +1,7 @@
 streamlit
+pandas
+string
 nltk
 scikit-learn
-pandas
 joblib
 deep-translator
