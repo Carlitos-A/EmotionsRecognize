@@ -81,6 +81,3 @@ modelo.fit(X, etiquetas)
 joblib.dump(vectorizer, "vectorizer.pkl")
 joblib.dump(modelo, "modelo_emociones.pkl")
 ```
-
-> Pendiente: subir el script/notebook original de entrenamiento con el
-> dataset usado y la matriz de confusión por clase.
